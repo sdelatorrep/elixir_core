@@ -33,14 +33,6 @@ public class ParamName {
 
   public static final String SKIP = "skip";
 
-  public static final String NOTIFICATION_TYPE = "notificationtype";
-
-  public static final String USER_ID = "userid";
-
-  public static final String STATUS = "status";
-
-  public static final String SESSION_ID = "sessionid";
-
   public static final String LEVEL = "level";
 
   public static final String PARAMS = "params";
@@ -50,42 +42,14 @@ public class ParamName {
   public static final String VALUE = "value";
 
   public static final String CACHE_TYPE = "cachetype";
-
-  public static final String MESSAGE = "message";
-
-  public static final String TYPE = "type";
-
-  public static final String VERSION = "version";
-
-  public static final String SERVICE_ID = "serviceid";
-
-  public static final String AUTH_PROVIDER_ID = "authproviderid";
-
-  public static final String SOURCE_TYPE = "sourcetype";
-  
-  public static final String ID_TYPE = "idtype";
   
   // Beacon
   public static final String BEACON_DATASET_IDS = "datasetids";
   public static final String BEACON_ALTERNATE_BASES = "alternatebases";
-  public static final String BEACON_REFERENCE_BASES = "ref";
-  public static final String BEACON_ALT_BASES = "alt";
-  public static final String BEACON_CHROMOSOME = "chromosome";
-  public static final String BEACON_CHROM = "chrom";
+  public static final String BEACON_REFERENCE_BASES = "referencebases";
+  public static final String BEACON_CHROMOSOME = "referencename";
   public static final String BEACON_POSITION = "position";
-  public static final String BEACON_POS = "pos";
-  public static final String BEACON_REFERENCE_GENOME = "referenceset";
+  public static final String BEACON_START = "start";
+  public static final String BEACON_REFERENCE_GENOME = "assemblyid";
 
-  // Authorization
-  public static final String RESOURCE_TYPE = "resourcetype";
-  public static final String RESOURCE_ID = "resourceid";
-  public static final String HTTP_METHOD = "httpmethod";
-  
-  public static final String SUBMITTER_ID = "submitterid";
-  public static final String SUBMISSION_ID = "submissionid";
-  
-  // Queries 4 All
-  public static final String QUERY_BY = "queryby";
-  public static final String QUERY_ID = "queryid";
-  
 }
